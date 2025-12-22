@@ -1,0 +1,68 @@
+# ===============================
+# Python
+# ===============================
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python experiment environments
+myenv/
+myenv-py310/
+myenv-tf/
+
+# ===============================
+# Node / Hardhat / Blockchain
+# ===============================
+node_modules/
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+ignition/
+
+# Hardhat local deployment cache
+ignition/deployments/
+
+# ===============================
+# Machine Learning / FL runtime
+# ===============================
+
+# Runtime state files
+.seen_hashes.json
+.seen_hashes_*.json
+
+# Trained models (generated)
+saved_models/
+server_models/
+
+# Logs / plots
+logs/
+*.png
+*.jpg
+*.jpeg
+
+# ===============================
+# Data (DO NOT COMMIT DATASETS)
+# ===============================
+data/
+*.csv
+*.h5
+*.pkl
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.envrc
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+.vscode/
+.idea/
